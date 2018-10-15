@@ -35,3 +35,9 @@
 
 五.苹果从 iOS 7 开始，在系统界面和预装应用上使用明亮的配色，基本颜色如下图：
     ![](https://ws1.sinaimg.cn/large/0077gVi6gy1fw956gab0dj30rs0hm3zq.jpg)
+
+六.java编程部分颜色对应的代码
+![](https://ws1.sinaimg.cn/large/0077gVi6gy1fw96aopspoj30p10g83ze.jpg)
+![](https://ws1.sinaimg.cn/large/0077gVi6gy1fw96aot506j30oj0iz0tx.jpg)
+![](https://ws1.sinaimg.cn/large/0077gVi6gy1fw96aoxpqkj30p60ki75q.jpg)
+![](https://ws1.sinaimg.cn/large/0077gVi6gy1fw96ap7svjj30p20hhmyf.jpg)
