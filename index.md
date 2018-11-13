@@ -2,13 +2,13 @@
 
 ## 课后作业
 
-1. [01-使用维基百科（Wikipedia）解释名词](hw01)
-2. [02-](hw02)
-3. [03-](hw03)
-4. [04-](hw04)
-5. [05-电路加法](hw05)
-6. [06-](hw06)
-7. [07-](hw07)
+1. [01-Introduction](hw01)
+2. [02-Number System](hw02)
+3. [03-Data Representation](hw03)
+4. [04-Data Representation](hw04)
+5. [05-Gates and Circuits ](hw05)
+6. [06-Computing Components](hw06)
+7. [07-Programming on Bare Machine](hw07)
 
 ## 实验与实践
 
