@@ -1,4 +1,4 @@
-3、仔细观察您洗衣机的运作过程，运用Top-down设计方法和Pseudocode 描述洗衣机控制程序。假设洗衣机可执行的基本操作如下：
+仔细观察您洗衣机的运作过程，运用Top-down设计方法和Pseudocode 描述洗衣机控制程序。假设洗衣机可执行的基本操作如下：
 
  water_in_switch(open_close)  // open 打开上水开关，close关闭 
  water_out_switch(open_close)  // open 打开排水开关，close关闭 
