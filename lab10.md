@@ -1,6 +1,8 @@
 <p1><font color = "gray" size = "6">一、使用Python解决高数问题</font></p1>
 
 
+
+
 <p1><font size = "4">1.求导</font></p1>
 
 对ln(x),sin(x)和cos（x)求导；
@@ -16,6 +18,9 @@
 ![](https://ws1.sinaimg.cn/large/007psiIqgy1fxfvy6h79bj30tz066jrl.jpg)
 
 <p1><font color = "gray" size = "6">二、使用Python解决线性代数问题</font></p1>
+
+
+
 
 <p1><font size = "4">1.矩阵相乘</font></p1>
 
