@@ -1,4 +1,4 @@
-<font color= gray size=5>一、使用Python解决高数问题</font>
+# 一、使用Python解决高数问题
 
 1.求导
 
@@ -14,7 +14,7 @@
 
 ![](https://ws1.sinaimg.cn/large/007psiIqgy1fxfvy6h79bj30tz066jrl.jpg)
 
-<font color= gray size=5>二、使用Python解决线性代数问题</font>
+# 二、使用Python解决线性代数问题
 
 1.矩阵相乘
 
