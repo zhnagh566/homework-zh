@@ -1,5 +1,8 @@
 # 一、使用Python解决高数问题
 
+<font size = "3"> ss </font>
+<font size = "10">ss </font>
+
 1.求导
 
 对ln(x),sin(x)和cos（x)求导；
