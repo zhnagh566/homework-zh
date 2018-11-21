@@ -1,4 +1,4 @@
-<font size=5>一、使用Python结束高数问题</font>
+<font color= gray size=5>一、使用Python解决高数问题</font>
 
 1.求导
 
@@ -14,3 +14,16 @@
 
 ![](https://ws1.sinaimg.cn/large/007psiIqgy1fxfvy6h79bj30tz066jrl.jpg)
 
+<font color= gray size=5>二、使用Python解决线性代数问题</font>
+
+1.矩阵相乘
+
+A = ([[3,4,6],[7,3,8],[5,3,7]]), B = ([[6,4,6],[5,3,9],[4,5,3]]).求AB和BA.
+
+![](https://ws1.sinaimg.cn/large/007psiIqgy1fxfwtvthq1j30u20ac3yy.jpg)
+
+2.求矩阵的逆
+
+A = ([[3,4,6],[7,3,8],[5,3,7]]), B = ([[6,4,6],[5,3,9],[4,5,3]]).分别求A和B的逆.
+
+![](https://ws1.sinaimg.cn/large/007psiIqgy1fxfx284uowj30u107lq39.jpg)
