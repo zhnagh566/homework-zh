@@ -6,6 +6,7 @@
  motor_run(direction) // 电机转动。
  left左转，right右转，stop停 time_counter()  // 返回当前时间计数，以秒为单位
  halt(returncode) //停机，success 成功 failure 失败
+ 
 1）请使用伪代码分解“正常洗衣”程序的大步骤。包括注水、浸泡等 
         
         放衣服
