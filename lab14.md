@@ -1,25 +1,25 @@
 # 风头之我见
 
-<font color="gray" size="4" face="黑体">首先列举一些国内比较成熟的风投公司以及它们主要的投资领域</font>:
+<font color="gray" size="4" face="黑体">首先列举一些国内比较成熟的风投公司以及它们主要的投资领域</font>以下主要选取针对IT行业的风头公司
 
 
-<font size="4" face="黑体">1.</font>IDG技术创业投资基金（最早引入中国的VC，也是迄今国内投资案例最多的VC，成功投资过腾讯，搜狐等公司）
+<font size="4" face="黑体">1.IDG技术创业投资基金（最早引入中国的VC，也是迄今国内投资案例最多的VC，成功投资过腾讯，搜狐等公司）
 
 投资领域： 软件产业 电信通讯 信息电子 半导体芯片 IT服务 网络设施 生物科技 保健养生
 
-<font size="4" face="黑体">2.</font>软银中国创业投资有限公司（日本孙正义资本，投资过阿里巴巴，盛大等公司） http://www.sbcvc.com 
+<font size="4" face="黑体">2.软银中国创业投资有限公司（日本孙正义资本，投资过阿里巴巴，盛大等公司） http://www.sbcvc.com 
 
 投资领域： IT服务 软件产业 半导体芯片 电信通讯 硬件产业 网络产业
 
-<font size="4" face="黑体">3.</font>凯雷投资集团（美国著名PE，投资太平洋保险集团，徐工集团） http://www.carlyle.com 
+<font size="4" face="黑体">3.凯雷投资集团（美国著名PE，投资太平洋保险集团，徐工集团） http://www.carlyle.com 
 
 投资领域： IT服务 软件产业 电信通讯 网络产业 信息电子 半导体芯片
 
-<font size="4" face="黑体">4.</font>联想投资有限公司（国内著名资本） http://www.legendcapital.com.cn 
+<font size="4" face="黑体">4.联想投资有限公司（国内著名资本） http://www.legendcapital.com.cn 
 
 投资领域： 软件产业 IT服务 半导体芯片 网络设施 网络产业 电信通讯
 
 
-<font size="4" face="黑体">5.</font>浙江浙商创业投资股份有限公司(民企） http://www.zsvc.com.cn/ 
+<font size="4" face="黑体">5.浙江浙商创业投资股份有限公司(民企） http://www.zsvc.com.cn/ 
 
 投资领域：关注（但不限于）电子信息、环保、医药化工、新能源、文化教育、生物科技、新媒体等行业及传统行业产生重大变革的优秀中小型企业。
