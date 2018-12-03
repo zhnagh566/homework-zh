@@ -15,11 +15,11 @@
 
 投资领域： IT服务 软件产业 电信通讯 网络产业 信息电子 半导体芯片
 
-<font size="4" face="黑体">4.</font>联想投资有限公司（国内著名资本） http://www.legendcapital.com.cn 
+<font size="3" face="黑体">4.联想投资有限公司（国内著名资本） http://www.legendcapital.com.cn 
 
 投资领域： 软件产业 IT服务 半导体芯片 网络设施 网络产业 电信通讯
 
 
-<font size="4" face="黑体">5.</font>浙江浙商创业投资股份有限公司(民企） http://www.zsvc.com.cn/ 
+<font size="3" face="黑体">5.浙江浙商创业投资股份有限公司(民企） http://www.zsvc.com.cn/ 
 
 投资领域：关注（但不限于）电子信息、环保、医药化工、新能源、文化教育、生物科技、新媒体等行业及传统行业产生重大变革的优秀中小型企业。
