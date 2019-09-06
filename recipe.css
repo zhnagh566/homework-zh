@@ -1,0 +1,16 @@
+h1,h2 {color:#A4A400;
+    background-color:  #F0F0F0;
+    font-family:' Century Gothic',Futura,Vardana,sans-serif;
+    font-size: 22pt;
+    font-weight:bold;
+    text-decoration:underline;}
+
+h2 {font-size: 18pt;
+    text-align:left;}
+
+p1,ul,p2,p3,p4 {color: #404040;
+    font-size: 11pt;
+    font-family: Georgia,Garamond,serif;}
+
+p4 {font-style:italic;
+background-color: #FFFFC8}
