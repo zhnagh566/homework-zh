@@ -1,0 +1,188 @@
+@charset "utf-8";
+
+body {background-image: url(background.png);
+}
+
+/*整个页面的默认的字体和字体大小*/
+p {font-size: 8pt;
+    font-family: Verdana, Tahoma, sans-serif;}
+
+/*浏览器最上方的图片*/
+#top_picture {
+    background-image: url(http://hcp.sysu.edu.cn/wiki/download/attachments/32833570/bannerbackground.png?version=1&modificationDate=1268939512000&api=v2);
+    background-repeat: repeat-x;
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100%;
+    height:50px;
+}
+       
+h1{text-align: center;
+    font-size:24pt;
+    font-weight: bold;/*粗体字*/
+    font-family:Tahoma, Verdana, sans-serif;
+    padding-top:20px;
+}
+
+/*为文本设置边框，并使其居中*/
+#whole_block{
+    border:4px solid gray;/*为文本设置边框*/
+    width:800px;
+    margin: auto; /*使整个边框和文本居中*/
+    position:relative;
+    height: 790px;
+}
+
+/*电影图片*/
+#movie_picture{
+    float:right;
+}
+
+/*左边板块*/
+#left_part{
+    width: 550px;
+}
+
+#left-center{
+    background-image: url(http://hcp.sysu.edu.cn/wiki/download/attachments/32833570/rottenbackground.png?version=1&modificationDate=1268939585000&api=v2);
+    background-repeat: repeat-x;
+    position:absolute;
+    left:0px;
+    top:0px;
+    width: 550px;
+    height: 83px;
+}
+
+/*32%*/
+#left-center span{
+    font-size: 48pt;
+    color: red;
+    position:absolute;
+    left:100px;
+    top:0px;
+    width:100%;
+    height:50px;
+
+}
+
+/*(88 reviews total)*/
+#total{
+    font-size:8pt;
+    color: white;
+    position:absolute;
+    left:250px;
+    top:55px;
+    width:100px;
+    height:50px;
+}
+
+/*左边板块的左上角*/
+#left_picture{
+    position: absolute;
+    width:10px;
+    height:10px;
+    left:0px;
+    top:0px;
+    z-index:100;
+}
+
+/*整个评论板块*/
+#comment{
+    padding-top:80px;
+}
+
+/*评论框板块*/
+.comment1{
+    background-color: #E1D697;
+    position: relative;
+    border:2px solid gray;
+    margin-left: 10px;
+    font-size: 8pt;
+    font-weight:bold;
+}
+
+/*评论框中的文本*/
+.comment1 p{
+    margin:8px;
+    line-height: 3em;
+}
+
+/*评论框中的图*/
+.comment1 span{
+    margin-right:5px;
+}
+
+/*右边评论区*/
+.part_right{
+    float:right;
+    width: 47%;
+    padding-top: 2%;
+    padding-right: 2%;
+}
+
+/*左边评论区*/
+.part_left{
+    float:left;
+    width: 47%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+/*评论者信息*/
+.comment2{
+   font-size: 8pt;
+   font-style: italic;
+}
+
+/*评论者信息中的头像*/
+.comment2 span{
+    float: left;
+}
+
+dl{
+    position: absolute;
+    right:0%;
+    bottom:0px;
+    background-color: #A2B964;
+    width:250px;
+    height: 50%;
+}
+
+#bank{
+    font-size: 8pt;
+    word-spacing: 1em;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+dt{
+    font-weight:bold;
+}
+
+/*底部区域*/
+#bottom{
+    margin: 0%;
+    position: absolute;
+    bottom: 0%;
+    background-color:#A2B964;
+    width: 800px;
+    text-align:center;
+}
+
+/*底部文本*/
+#bottom span{
+    text-align:center;
+}
+
+.one_whole_comment{
+    margin-bottom: 2em;
+}
+
+/*W3C*/
+#link{
+    position: fixed;
+    left:1145px;
+    top: 654px;
+}
