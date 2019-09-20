@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-body {background-image: url(http://hcp.sysu.edu.cn/wiki/display/WEB/Homework+2+-+Movie+Review?preview=/32833570/32833733/background.png);
+body {background-image: url(http://a1.qpic.cn/psb?/V14DCvZS3SdPyt/d4k.VQtvz7VYBBVB4D1fW9Up9dFgnZ7ggF7prXjYpmk!/m/dEABAAAAAAAAnull&bo=kwCTAAAAAAADByI!&rf=photolist&t=5);
 }
 
 /*整个页面的默认的字体和字体大小*/
@@ -183,6 +183,6 @@ dt{
 /*W3C*/
 #link{
     position: fixed;
-    left:1145px;
+    left:1164px;
     top: 654px;
 }
