@@ -1,0 +1,237 @@
+#bottom-positioner {
+    position: absolute;
+    width: 550px;
+    height: 500px;
+    left: 24%;
+}
+
+#info-bar {
+    background-color:gray;
+    width: 10px;
+    height: 10px;
+     /*前三条命令使得呈现圆形边框*/
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    opacity: 0; /*透明度为0，使其不可见*/
+    transition: all 1s ease-out 0.3s;/*ease-out:规定以慢速结束的过渡效果*/
+    overflow: hidden;/*内容会被修剪，并且其余元素为不可见的*/
+}
+
+/*:hover在鼠标移到链接上时添加的特殊样式*/
+#button:hover #info-bar{
+    background-color:gray;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    left: 42%;
+    bottom: 21%;
+    opacity: 1; 
+}
+
+#button:hover .user span {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+    opacity: 1;
+}
+#button:hover .comment span {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 35px;
+    color: white;
+    opacity: 1;
+}
+
+.user {
+    position: absolute;
+    top:10px;
+}
+
+.page span {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 0;
+    color: white;
+    transition: all 1s ease-out 0.3s;
+    opacity: 0;
+}
+
+.comment {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.comment span {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 0px;
+    color: white;
+    transition: all 1s ease-out 0.3s;
+    opacity: 0;
+}
+
+.mine {
+    display: inline-block;
+}
+
+.mine span {
+    position: absolute;
+    display: inline-block;
+    margin-left: 5px;
+    color: #3cc101;
+    bottom: 7px;
+}
+
+.posted {
+    position: absolute;
+    top:75px;
+    left: 20px;
+}
+
+.like {
+    position: absolute;
+    top: 75px;
+    left:60px;
+}
+
+.button {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.mask {
+    background: url(assets/images/nomask.png) no-repeat 50% 50% gray;
+    left: 50%;
+    bottom: 9%;
+    opacity: 0;
+    /*使得蒙板从中心图标中演化出来，但是不会完全显示其轨迹*/
+    transition: all 1s ease-out 0.3s;
+    background-size: 0%;
+    /*当鼠标从中心图标挪开时，蒙板的图标随着蒙板边框的缩小而缩小*/
+}
+
+#button:hover .mask {
+    background: url(assets/images/nomask.png) no-repeat 50% 50%gray;
+    background-size: 50%;
+    left: 40%;
+    bottom: 17%;
+    opacity: 1;
+    /*规定蒙版相对于中心图标的位置*/
+}
+
+.history {
+    background: url(assets/images/history.png) no-repeat 50% 50% gray;
+    left: 50%;
+    bottom: 9%;
+    opacity: 0;
+    transition: all 1s ease-out 0.3s;
+    background-size: 0%;
+}
+
+#button:hover .history {
+    background: url(assets/images/history.png) no-repeat 50% 50% gray;
+    background-size: 50%;
+    left: 38%;
+    bottom: 9%;
+    opacity: 1;
+}
+
+.message {
+    background: url(assets/images/message.png) no-repeat 50% 50% gray;
+    left: 50%;
+    bottom: 9%;
+    opacity: 0;
+    transition: all 1s ease-out 0.3s;
+    background-size: 0%;
+}
+
+#button:hover .message {
+    background: url(assets/images/message.png) no-repeat 50% 50% gray;
+    background-size: 50%;
+    left: 40%;
+    bottom: 1%;
+    opacity: 1;
+}
+
+/*设置消息板块的未读消息的红标*/
+.unread {
+    display: inline-block;
+    position: absolute;
+    left:25px;
+    bottom: 20px;
+    background-color: red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;/*2在圆框中所占的行高*/
+    text-align: center;
+    transition: all 1s ease-out 0.3s;
+    color: white;
+}
+
+.setting {
+    background: url(assets/images/setting.png) no-repeat 50% 50% gray;
+    left: 50%;
+    bottom: 9%;
+    opacity: 0;
+    transition: all 1s ease-out 0.3s;
+    background-size: 0%;
+}
+
+#button:hover .setting {
+    background: url(assets/images/setting.png) no-repeat 50% 50% gray;
+    background-size: 50%;
+    left: 46%;
+    bottom: -15px;
+    opacity: 1;
+}
+
+.sign {
+    background: url(assets/images/signin.png) no-repeat 50% 50% gray;
+    left: 50%;
+    bottom: 9%;
+    opacity: 0;
+    transition: all 1s ease-out 0.3s;
+    background-size: 0%;
+}
+
+#button:hover .sign {
+    background: url(assets/images/signin.png) no-repeat 50% 50% gray;
+    background-size: 50%;
+    left: 53%;
+    bottom: -12px;
+    opacity: 1;
+}
+
+/*当鼠标移动到图标上产生的衍生图标*/
+.apb {
+    position: absolute;
+    background: url(assets/images/atplus_white.png) no-repeat 50% 50% #7171C6;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    left:50%;
+    bottom: 9%;
+    opacity: 0.5;
+}
+
+#button:hover .apb{
+    background: url(assets/images/atplus_green.png) no-repeat 50% 50% rgba(48, 63, 159, 1);/*使图片居中且不重复*/
+    background-size: 65%;/*增大@的图标显示*/
+    transform: scale(1.5);/*鼠标移到图标上的时候，图片被放大1.5倍*/
+    opacity: 1;
+}
+
+/*隐藏自动生成的·*/
+ul {
+    list-style-type: none;
+}
