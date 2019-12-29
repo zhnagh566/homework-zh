@@ -1,0 +1,38 @@
+table.tablesorter{
+    font-size: 10pt;
+    width: 50%;
+    text-align: left;
+}
+
+thead{
+    background:blue;
+    color:white;
+}
+
+/*表头样式*/
+.header{
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+}
+
+/*降序时样式*/
+th.headerSortDown{
+    background-image: url("descend.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+}
+
+/*升序时样式*/
+th.headerSortUp{
+    /*background-color:white;*/
+    background-image: url("ascend.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+}
+
+.alternate{
+    background-color: lightgray;
+}

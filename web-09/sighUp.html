@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Sign Up</title>
+		<link rel="stylesheet" type="text/css" href="signUp.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.js"></script>
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="index.js"></script>
+	</head>
+	<body>
+		<form method="post" action="http://localhost:8000/information.html" onsubmit="return checksubmit()">
+		<!--onsubmit 事件会在表单中的确认按钮被点击时发生,这里被点击之后执行函数checksubmit--->
+			<h1>注册</h1>
+			<div id="show">
+				<h2>用户注册</h2>
+				<p>用户名：<input type="text" name="username" value="" id="txtUsername"></p>
+				<p>学号：<input type="text" name="studentid" value="" id="txtStudentid"></p>
+				<p>电话：<input type="text" name="phone" value="" id="txtPhone"></p>
+				<p>邮箱：<input type="text" name="email" value="" id="txtEmail"></p>
+				<input type="reset" name="reset" value="重置">
+				<input type="submit" name="submit" value="提交" id="submit">
+			</div>
+		</form>
+	</body>
+</html>

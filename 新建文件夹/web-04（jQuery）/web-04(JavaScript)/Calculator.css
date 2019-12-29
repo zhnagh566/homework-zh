@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    color: rgb(54, 63,63);
+    letter-spacing: 0.5em;
+}
+
+#all_block{
+    border:3px solid#20ffff;
+    border-radius:30px;
+    width: 300px;
+    height: 450px;
+    background:#b7ffe1;
+    margin: auto;
+}
+
+#calculate_area{
+    width: 270px;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#block{
+    border:2px solid darkslategray;
+    border-radius:15px;
+    width: 270px;
+    height: 60px;
+    background: #ffffff;
+    position: absolute;
+    top: 10px;
+    text-align: right;
+    font-size:20px;
+}
+
+td{
+    border:1px solid darkslategray;
+    border-radius:20px;
+    background-color: rgb(120, 243, 255);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+
+
+

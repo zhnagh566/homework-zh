@@ -1,0 +1,117 @@
+body {
+    text-align: center;
+}
+
+h1{
+    font-size:50px;
+    color: rgb(162, 187, 255);
+    letter-spacing: 50px;
+}
+    
+#puzzle, #restart{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#restart{
+    color:rgb(162, 187, 255);
+    height:100px;
+    width: 50px;
+}
+
+/*拼图板块*/
+#puzzle {
+    position: relative;
+    width: 508px;
+    height: 508px;
+}
+    
+.puzzle_part0{
+    background: url("picture.jpg") no-repeat;
+    transition-duration: 0.2s;
+    position: absolute;
+    border: solid 2px lightgray;
+    display: inline-block;
+    width: 123px;
+    height: 123px;
+    margin-bottom: -4px;
+    opacity: 0.9;
+}
+
+.position1, .position2, .position3, .position4 {
+    top: 0px;
+}
+    
+.position5, .position6, .position7, .position8 {
+    top: 127px;
+}
+    
+.position9, .position10, .position11, .position12 {
+    top: 254px;
+}
+    
+.position13, .position14, .position15, .position16 {
+    top: 381px;
+}
+    
+.position1, .position5, .position9, .position13 {
+    left: 0px;
+}
+    
+.position2, .position6, .position10, .position14 {
+    left: 127px;
+}
+    
+.position3, .position7, .position11, .position15 {
+    left: 254px;
+}
+    
+.position4, .position8, .position12, .position16 {
+    left: 381px;
+}
+    
+#pic1 {background-position: 0px 0px;}
+    
+#pic2 {background-position: -127px 0px;}
+    
+#pic3 {background-position: -254px 0px;}
+    
+#pic4 {background-position: -381px 0px;}
+    
+#pic5 {background-position: 0px -127px;}
+    
+#pic6 {background-position: -127px -127px;}
+    
+#pic7 {background-position: -254px -127px;}
+    
+#pic8 {background-position: -381px -127px; }
+    
+#pic9 {background-position: 0px -254px;}
+    
+#pic10 {background-position: -127px -254px;}
+    
+#pic11 {background-position: -254px -254px; }
+    
+#pic12 {background-position: -381px -254px;}
+    
+#pic13 {background-position: 0px -381px;}
+    
+#pic14 {background-position: -127px -381px;}
+    
+#pic15 {background-position: -254px -381px; }
+    
+#pic16 {
+    opacity: 0;
+    background-position: -381px -381px;
+    background-image: none;
+}
+
+/*缩略图*/
+img{
+    height:200px;
+    width:200px;
+    position: fixed;
+    right:5px;;
+    bottom: 5px;
+}
